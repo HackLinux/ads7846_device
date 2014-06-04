@@ -1,0 +1,9 @@
+config TOUCHSCREEN_ADS7846_DEVICE
+	tristate "ADS7846 kernel module"
+	depends on TOUCHSCREEN_ADS7846
+	help
+	  Say Y here to build the kernel module for registering an
+	  ADS7846 device.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called ads7846_device.
